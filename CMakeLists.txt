@@ -75,11 +75,3 @@ endif()
 
 # add project code
 add_subdirectory(src)
-
-if(NOT ${projectPrefix}API_FREESTANDING)
-    # add usage example
-    add_subdirectory(example)
-endif()
-
-# add unit tests
-enable_testing()
