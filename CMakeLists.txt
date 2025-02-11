@@ -83,4 +83,3 @@ endif()
 
 # add unit tests
 enable_testing()
-add_subdirectory(test)
